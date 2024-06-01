@@ -19,9 +19,9 @@ Raspberry.
 
 This preview version of Stardust was developed using the [J'a'b'](https://doi.org/10.1002/col.20227)
 colour appearance model, with a number of manual adjustments applied. Future
-versions are likely to use J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>.
+versions are likely to use [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi.org/10.1364/OE.25.015131).
 
-Colour model conversions were performed using the [colorspacious](https://github.com/njsmith/colorspacious)
+Colour model conversions are performed using the [colorspacious](https://github.com/njsmith/colorspacious)
 Python module.
 
 ## Compatibility with Solarized
@@ -59,13 +59,15 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 ## ChangeLog
 
-* 2024-06-01 - 0.0.1 - Pre-release preview _(all values subject to change)_
+* 2024-06-02 - iTerm2: Adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
+* 2024-06-01 - Pre-release preview _(all values subject to change)_
 
 ## History
 
-Stardust is a carefully-chosen balanced subset of a much larger palette
-developed throughout 2023/24 for a particular project, initially directly
-in sRGB, later re-modelled in L*a*b, then J'a'b'.
+Stardust is a carefully-chosen balanced subset of a colour palette developed
+throughout 2023/24 that forms part of a much more comprehensive design system.
+Shades were selected initially in sRGB, subsequently re-modelled in CIELab,
+then later J'a'b'.
 
 ## Using Stardust
 
@@ -83,6 +85,7 @@ There are several versions of Stardust [provided for iTerm 2](https://github.com
 * _Stardust_ uses the `base` tones (like Solarized), but map the eight Stardust hues to the 16 standard- and high-intensity ANSI colours as most applications expect
 * _Stardust Solar_ is a direct port of the Solarized Dark & Light palettes: like with Solarized, these remap all but two of the high-intensity ANSI colours to `base` tones
 * _Stardust Pro_ is a grey-on-black or grey-on-white theme with the eight Stardust hues mapped to the 16 ANSI colours; these are closest to "traditional" colour terminal themes
+* _Stardust High Contrast_ is similar to _Stardust Pro_, but uses darker shades on a white background, and lighter shades on a dark background, in order to increase contrast. You may wish to experiment with iTerm 2's "Minimum contrast" profile setting, but 40% offers a good balance.
 
 Note that the _Stardust Solar_ themes seek to reproduce faithfully the
 Solarized palette arrangements (notwithstanding the accent colour hue
@@ -92,7 +95,7 @@ colour assignments for both light and dark modes. _Stardust Solar_ follows
 the light/dark logic as specified in the [Solarized Xresources file](https://github.com/altercation/solarized/blob/master/xresources/solarized),
 which inverts _all_ of the "base" shades between modes (i.e., all `base0`
 shades become `base` shades and vice versa; `base03` is swapped for `base3`
-and so on)
+and so on).
 
 ### HTML and CSS
 
@@ -214,8 +217,8 @@ Rather than complicate the palette definition by using different models for the
 different colour variants, the current version of Stardust is defined using a
 single general-purpose model, and then a series of adjustments are applied.
 Without a significant amount of data gathering and analysis, this will remain
-the most subjective of the process. Fortunately, colour appearance models are
-an active area of research, and so hopefully future versions of Stardust can
+the most subjective aspect of the process. Fortunately, colour appearance models
+are an active area of research, and so hopefully future versions of Stardust can
 be more data-driven.
 
 ## Colour naming
