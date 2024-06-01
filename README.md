@@ -12,12 +12,14 @@ Medium, Vivid, and Pastel), along with five grey scales (Black, Dark grey,
 Medium grey, Light grey, and White), and lightly-adapted versions of Solarized's
 `base` tones.
 
-The eight hues are evenly spaced around the colour wheel, which means that four
-of the hues are the direct complements of the other four: Pumpkin, Gold, Lime, and
-Mint complement Sky, Bilberry, Lilac, and Raspberry.
+The eight hues are evenly spaced around the colour wheel, and because there is
+an even number of them, four of the hues are the direct complements of the
+other four: Pumpkin, Gold, Lime, and Mint complement Sky, Bilberry, Lilac, and
+Raspberry.
 
-Stardust was developed using the [J'a'b'](https://doi.org/10.1002/col.20227)
-colour appearance model, with a number of manual adjustments applied.
+This preview version of Stardust was developed using the [J'a'b'](https://doi.org/10.1002/col.20227)
+colour appearance model, with a number of manual adjustments applied. Future
+versions are likely to use J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>.
 
 Colour model conversions were performed using the [colorspacious](https://github.com/njsmith/colorspacious)
 Python module.
@@ -62,7 +64,8 @@ adjustments to sRGB values (which are non-canonical) is not.
 ## History
 
 Stardust is a carefully-chosen balanced subset of a much larger palette
-developed throughout 2023/24 for a particular project.
+developed throughout 2023/24 for a particular project, initially directly
+in sRGB, later re-modelled in L*a*b, then J'a'b'.
 
 ## Using Stardust
 
@@ -75,7 +78,7 @@ so that theme files can be generated rather than needing to be manually updated 
 
 #### iTerm 2
 
-There are several versions of Stardust [provided for iTerm 2]():
+There are several versions of Stardust [provided for iTerm 2](https://github.com/nevali/Stardust/tree/main/iTerm2):
 
 * _Stardust_ uses the `base` tones (like Solarized), but map the eight Stardust hues to the 16 standard- and high-intensity ANSI colours as most applications expect
 * _Stardust Solar_ is a direct port of the Solarized Dark & Light palettes: like with Solarized, these remap all but two of the high-intensity ANSI colours to `base` tones
@@ -93,7 +96,7 @@ and so on)
 
 ### HTML and CSS
 
-The Stardust palette is available as [a set of CSS Variables]().
+The Stardust palette is available as [a set of CSS Variables](CSS/Stardust.css?raw=true).
 
 ### Non-screen use
 
