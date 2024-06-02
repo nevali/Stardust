@@ -65,6 +65,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 ## ChangeLog
 
+* 2024-06-02 - added colour values as a [tab-delimited text file](Values/Stardust.txt)
 * 2024-06-02 - iTerm2: Adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
 * 2024-06-01 - Pre-release preview _(all values subject to change)_
 
@@ -125,6 +126,8 @@ The J'a'b' values are canonical. Conversions were performed using the UCS
 space; future verions may vary the space used for the different variations to
 better approximate display reproduction and human perception. D65 is used as
 the reference white point where relevant. RGB values are sRGB.
+
+The following table is also available in [tab-delimited text format](Values/Stardust.txt?raw=true).
 
 |        Name        |    Hex    |  R   |  G   |  B   |  L*  |  a*  |  b*  |  J'  |  a'  |  b'  |
 | ------------------ | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
