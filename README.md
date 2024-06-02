@@ -30,26 +30,6 @@ Python module.
 
 <img src="overview.svg?raw=true&sanitize=true" width="95%" alt="Palette overview">
 
-### J'a'b' hue/chroma
-
-<img src="Plots/Jab-Hue-Chroma.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Chroma polar plot" width="45%">
-
-### J'a'b' hue/lightness
-
-<img src="Plots/Jab-Hue-Lightness.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Lightness polar plot" width="45%">
-
-### J'a'b' combined scatter
-
-<img src="Plots/Jab.svg?raw=true&sanitize=true" alt="J'a'b' 3D scatter-plot" width="45%">
-
-### CIELAB combined scatter
-
-<img src="Plots/CIELAB.svg?raw=true&sanitize=true" alt="CIE L*a*b 3D scatter-plot" width="45%">
-
-### sRGB combined scatter
-
-<img src="Plots/sRGB.svg?raw=true&sanitize=true" alt="sRGB 3D scatter-plot" width="45%">
-
 ## Compatibility with Solarized
 
 Stardust isn't based directly upon Solarized, but because it follows similar
@@ -202,6 +182,26 @@ the reference white point where relevant. RGB values are sRGB.
 |         Light grey | `#b4b0b0` |  180 |  176 |  176 |   72 |    1 |    1 |   75 |    0 |    0 |
 |              White | `#ffffff` |  255 |  255 |  255 |  100 |    0 |    0 |  100 |    0 |    0 |
 
+
+### J'a'b' hue/chroma
+
+<img src="Plots/Jab-Hue-Chroma.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Chroma polar plot" width="45%">
+
+### J'a'b' hue/lightness
+
+<img src="Plots/Jab-Hue-Lightness.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Lightness polar plot" width="45%">
+
+### J'a'b' combined scatter
+
+<img src="Plots/Jab.svg?raw=true&sanitize=true" alt="J'a'b' 3D scatter-plot" width="45%">
+
+### CIELAB combined scatter
+
+<img src="Plots/CIELAB.svg?raw=true&sanitize=true" alt="CIE L*a*b 3D scatter-plot" width="45%">
+
+### sRGB combined scatter
+
+<img src="Plots/sRGB.svg?raw=true&sanitize=true" alt="sRGB 3D scatter-plot" width="45%">
 
 # Development and future direction
 
