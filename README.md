@@ -1,5 +1,9 @@
 
-# Stardust
+<picture>
+<source srcset="Logo/Stardust-Black.svg" media="(prefers-color-scheme: light)"/>
+<source srcset="Logo/Stardust-White.svg" media="(prefers-color-scheme: dark)"/>
+<img src="Logo/Stardust-Black.svg" alt="Stardust">
+</picture>
 
 ** ⚠️ COLOUR VALUES ARE NOT CURRENTLY STABLE AND WILL CHANGE **
 
@@ -24,7 +28,7 @@ versions are likely to use [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi
 Colour model conversions are performed using the [colorspacious](https://github.com/njsmith/colorspacious)
 Python module.
 
-![Palette overview](overview.svg?raw=true&sanitize=true)
+<img src="overview.svg?raw=true&sanitize=true" width="95%" alt="Palette overview">
 
 ## Compatibility with Solarized
 
