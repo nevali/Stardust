@@ -28,7 +28,7 @@ versions are likely to use [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi
 Colour model conversions are performed using the [colorspacious](https://github.com/njsmith/colorspacious)
 Python module.
 
-<img src="overview.svg?raw=true&sanitize=true" width="95%" alt="Palette overview">
+<img src="overview.svg?raw=true&sanitize=true" width="100%" alt="Palette overview">
 
 ## Compatibility with Solarized
 
