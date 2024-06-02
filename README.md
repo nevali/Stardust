@@ -83,7 +83,11 @@ pull requests containing samples are gratefully received and credit will natural
 any contributions. Please do include a link to any documentation that explains the file format,
 so that theme files can be generated rather than needing to be manually updated if values changed.
 
-### Terminals
+### Palettes
+
+* [Apple Color Picker](https://github.com/nevali/Stardust/tree/main/macOS) (copy to `~/Library/Colors`)
+
+### Terminal emulators
 
 #### iTerm 2
 
@@ -104,7 +108,7 @@ which inverts _all_ of the "base" shades between modes (i.e., all `base0`
 shades become `base` shades and vice versa; `base03` is swapped for `base3`
 and so on).
 
-### HTML and CSS
+### SVG, HTML and CSS
 
 The Stardust palette is available as [a set of CSS Variables](CSS/Stardust.css?raw=true).
 
