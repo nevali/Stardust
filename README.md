@@ -30,6 +30,21 @@ Python module.
 
 <img src="overview.svg?raw=true&sanitize=true" width="95%" alt="Palette overview">
 
+J'a'b' hue/chroma:
+<img src="Plots/Jab-Hue-Chroma.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Chroma polar plot">
+
+J'a'b' hue/lightness:
+<img src="Plots/Jab-Hue-Lightness.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Lightness polar plot">
+
+J'a'b' combined scatter:
+<img src="Plots/Jab.svg?raw=true&sanitize=true" alt="J'a'b' 3D scatter-plot">
+
+CIELAB combined scatter:
+<img src="Plots/CIELAB.svg?raw=true&sanitize=true" alt="CIE L*a*b 3D scatter-plot">
+
+sRGB combined scatter:
+<img src="Plots/sRGB.svg?raw=true&sanitize=true" alt="sRGB 3D scatter-plot">
+
 ## Compatibility with Solarized
 
 Stardust isn't based directly upon Solarized, but because it follows similar
