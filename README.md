@@ -1,8 +1,8 @@
 
 <picture>
-<source srcset="Logo/Stardust-Black.svg" media="(prefers-color-scheme: light)"/>
-<source srcset="Logo/Stardust-White.svg" media="(prefers-color-scheme: dark)"/>
-<img src="Logo/Stardust-Black.svg" alt="Stardust">
+<source srcset="Logo/Stardust-Black.svg?raw=true&sanitize=true" media="(prefers-color-scheme: light)"/>
+<source srcset="Logo/Stardust-White.svg?raw=true&sanitize=true" media="(prefers-color-scheme: dark)"/>
+<img src="Logo/Stardust-Black.svg?raw=true&sanitize=true" alt="Stardust">
 </picture>
 
 ** ⚠️ COLOUR VALUES ARE NOT CURRENTLY STABLE AND WILL CHANGE **
