@@ -65,9 +65,14 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 ## ChangeLog
 
-* 2024-06-02 - added colour values as a [tab-delimited text file](Values/Stardust.txt)
-* 2024-06-02 - iTerm2: Adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
-* 2024-06-01 - Pre-release preview _(all values subject to change)_
+### Pre-release versions:
+
+*All values are subject to change*
+
+* 2024-06-02 - Palettes: added Apple Color Picker `.clr` file
+* 2024-06-02 - Values: added colour values as a [tab-delimited text file](Values/Stardust.txt)
+* 2024-06-02 - iTerm2: adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
+* 2024-06-01 - Initial preview _(all values subject to change)_
 
 ## History
 
