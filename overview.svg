@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<style type="text/css">
+svg {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+svg.palette rect {
+	stroke: #000;
+	stroke-width: 1px;
+}
+svg.palette text.hex {
+	font-size: 80%;
+	font-family: monospace;
+}
+svg.palette text.label {
+	dominant-baseline: text-bottom;
+}
+.dark text {
+	fill: #ccc;
+}
+.light text {
+	fill: #222;
+}
+</style>
+<svg x="8" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#380d1f"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#380d1f</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight raspberry</tspan></text>
+</svg>
+<svg x="136" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#381102"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#381102</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight pumpkin</tspan></text>
+</svg>
+<svg x="264" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#2d1e00"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#2d1e00</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight gold</tspan></text>
+</svg>
+<svg x="392" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#0d2706"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#0d2706</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight lime</tspan></text>
+</svg>
+<svg x="520" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#002b1f"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#002b1f</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight mint</tspan></text>
+</svg>
+<svg x="648" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#002535"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#002535</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight sky</tspan></text>
+</svg>
+<svg x="776" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#171a41"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#171a41</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight bilberry</tspan></text>
+</svg>
+<svg x="904" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#2f1139"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#2f1139</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Midnight lilac</tspan></text>
+</svg>
+<svg x="1032" y="8" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#000000"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#000000</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Black</tspan></text>
+</svg>
+<svg x="8" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#6d0035"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#6d0035</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark raspberry</tspan></text>
+</svg>
+<svg x="136" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#680f00"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#680f00</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark pumpkin</tspan></text>
+</svg>
+<svg x="264" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#543100"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#543100</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark gold</tspan></text>
+</svg>
+<svg x="392" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#004700"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#004700</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark lime</tspan></text>
+</svg>
+<svg x="520" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#005237"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#005237</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark mint</tspan></text>
+</svg>
+<svg x="648" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#004673"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#004673</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark sky</tspan></text>
+</svg>
+<svg x="776" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#2e14a2"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#2e14a2</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark bilberry</tspan></text>
+</svg>
+<svg x="904" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#5f007f"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#5f007f</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark lilac</tspan></text>
+</svg>
+<svg x="1032" y="72.0" width="112" height="48.0" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#383636"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#383636</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Dark grey</tspan></text>
+</svg>
+<svg x="8" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#c2286e"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#c2286e</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Raspberry</tspan></text>
+</svg>
+<svg x="136" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#be4000"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#be4000</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pumpkin</tspan></text>
+</svg>
+<svg x="264" y="136.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#9f6c00"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#9f6c00</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Gold</tspan></text>
+</svg>
+<svg x="392" y="136.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#2b8a11"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#2b8a11</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Lime</tspan></text>
+</svg>
+<svg x="520" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#009771"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#009771</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Mint</tspan></text>
+</svg>
+<svg x="648" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#0086be"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#0086be</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Sky</tspan></text>
+</svg>
+<svg x="776" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#5957f1"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#5957f1</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Bilberry</tspan></text>
+</svg>
+<svg x="904" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#a734cd"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#a734cd</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Lilac</tspan></text>
+</svg>
+<svg x="1032" y="136.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#727070"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#727070</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Medium grey</tspan></text>
+</svg>
+<svg x="8" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ff00a8"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ff00a8</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid raspberry</tspan></text>
+</svg>
+<svg x="136" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ff5d00"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ff5d00</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid pumpkin</tspan></text>
+</svg>
+<svg x="264" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffb900"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffb900</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid gold</tspan></text>
+</svg>
+<svg x="392" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#00e000"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#00e000</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid lime</tspan></text>
+</svg>
+<svg x="520" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#00fdb1"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#00fdb1</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid mint</tspan></text>
+</svg>
+<svg x="648" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#00ddff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#00ddff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid sky</tspan></text>
+</svg>
+<svg x="776" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#6c88ff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#6c88ff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid bilberry</tspan></text>
+</svg>
+<svg x="904" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#df41ff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#df41ff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Vivid lilac</tspan></text>
+</svg>
+<svg x="1032" y="264.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#b4b0b0"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#b4b0b0</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Light grey</tspan></text>
+</svg>
+<svg x="8" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffcef5"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffcef5</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel raspberry</tspan></text>
+</svg>
+<svg x="136" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffd7a3"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffd7a3</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel pumpkin</tspan></text>
+</svg>
+<svg x="264" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#fff481"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#fff481</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel gold</tspan></text>
+</svg>
+<svg x="392" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#caffaf"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#caffaf</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel lime</tspan></text>
+</svg>
+<svg x="520" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#93fff7"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#93fff7</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel mint</tspan></text>
+</svg>
+<svg x="648" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#abffff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#abffff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel sky</tspan></text>
+</svg>
+<svg x="776" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#e9f4ff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#e9f4ff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel bilberry</tspan></text>
+</svg>
+<svg x="904" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffdcff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffdcff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">Pastel lilac</tspan></text>
+</svg>
+<svg x="1032" y="328.0" width="112" height="48.0" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffffff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">White</tspan></text>
+</svg>
+<svg x="8" y="392.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#002735"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#002735</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base03</tspan></text>
+</svg>
+<svg x="136" y="392.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#003341"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#003341</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base02</tspan></text>
+</svg>
+<svg x="264" y="392.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#4d6b74"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#4d6b74</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base01</tspan></text>
+</svg>
+<svg x="392" y="392.0" width="112" height="112" class="palette dark">
+<rect x="0" y="0" width="100%" height="100%" fill="#5b777f"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#5b777f</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base00</tspan></text>
+</svg>
+<svg x="520" y="392.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#7e8d8e"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#7e8d8e</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base0</tspan></text>
+</svg>
+<svg x="648" y="392.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#8a9a9b"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#8a9a9b</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base1</tspan></text>
+</svg>
+<svg x="776" y="392.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#f5eddc"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#f5eddc</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base2</tspan></text>
+</svg>
+<svg x="904" y="392.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#fff7e6"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#fff7e6</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">base3</tspan></text>
+</svg>
+<svg x="1032" y="392.0" width="112" height="112" class="palette light">
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<text x="100%" y="1.2em" text-anchor="end" class="hex">#ffffff</text>
+<text x="0" y="100%" text-anchor="start" class="label"><tspan dy="-0.5em" dx="0.5em">White</tspan></text>
+</svg>
+</svg>

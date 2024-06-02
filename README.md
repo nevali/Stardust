@@ -24,6 +24,8 @@ versions are likely to use [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi
 Colour model conversions are performed using the [colorspacious](https://github.com/njsmith/colorspacious)
 Python module.
 
+![Palette overview](overview.svg?raw=true&sanitize=true)
+
 ## Compatibility with Solarized
 
 Stardust isn't based directly upon Solarized, but because it follows similar
