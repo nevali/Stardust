@@ -21,12 +21,12 @@ an even number of them, four of the hues are the direct complements of the
 other four: Pumpkin, Gold, Lime, and Mint complement Sky, Bilberry, Lilac, and
 Raspberry.
 
-This preview version of Stardust was developed using the [J'a'b'](https://doi.org/10.1002/col.20227)
-colour appearance model, with a number of manual adjustments applied. Future
-versions are likely to use [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi.org/10.1364/OE.25.015131).
+This preview version of Stardust was developed using the [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi.org/10.1364/OE.25.015131)
+colour appearance model, with a number of manual adjustments applied to specific
+shades to ensure balance in practice.
 
 Colour model conversions are performed using the [colorspacious](https://github.com/njsmith/colorspacious)
-Python module.
+and [ColorAide](https://github.com/facelessuser/coloraide) Python modules.
 
 <img src="overview.svg?raw=true&sanitize=true" width="100%" alt="Palette overview">
 
@@ -69,6 +69,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 *All values are subject to change*
 
+* 2024-06-02 - *Major change*: Switch from J'a'b' to J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> as the source model
 * 2024-06-02 - Palettes: added Apple Color Picker `.clr` file
 * 2024-06-02 - Values: added colour values as a [tab-delimited text file](Values/Stardust.txt)
 * 2024-06-02 - iTerm2: adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
@@ -79,7 +80,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 Stardust is a carefully-chosen balanced subset of a colour palette developed
 throughout 2023/24 that forms part of a much more comprehensive design system.
 Shades were selected initially in sRGB, subsequently re-modelled in CIELab,
-then later J'a'b'.
+then, J'a'b', then subsequently J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>.
 
 ## Using Stardust
 
@@ -119,11 +120,12 @@ The Stardust palette is available as [a set of CSS Variables](CSS/Stardust.css?r
 
 ### Non-screen use
 
-Stardust has not been designed with non-sRGB gamuts in mind, nor have its tones
-been matched to any dye/pigment combinations. However, that doesn't mean that
-Stardust is entirely unsuitable for print use, particularly with respect to the
-medium tones, whose shades ought to lie within the gamut of most colour processes,
-and the L*a*b* values should aid in achieving consistent results.
+Stardust has not been designed with specific support for non-sRGB gamuts, nor
+have its tones been matched to any dye/pigment combinations. However, that
+doesn't mean that Stardust is entirely unsuitable for print use, particularly
+with respect to the medium tones, whose shades ought to lie within the gamut
+of most colour processes, and the CIELAB values should aid in achieving
+consistent results.
 
 A future version of Stardust may include specific support for non-screen use
 of the palette, but there are no current plans to do so. Contributions are of
@@ -131,77 +133,76 @@ course welcome.
 
 ## Colour values
 
-The J'a'b' values are canonical. Conversions were performed using the UCS
-space; future verions may vary the space used for the different variations to
-better approximate display reproduction and human perception. D65 is used as
-the reference white point where relevant. RGB values are sRGB.
+The J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> values are canonical. D65 is used as
+the reference white point where relevant. RGB values are sRGB unless otherwise
+noted.
 
 The following table is also available in [tab-delimited text format](Values/Stardust.txt?raw=true).
 
-|        Name        |    Hex    |  R   |  G   |  B   |  L*  |  a*  |  b*  |  J'  |  a'  |  b'  |
-| ------------------ | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-|            Pumpkin | `#be4000` |  190 |   64 |    0 |   45 |   48 |   60 |   50 |   25 |   25 |
-|   Midnight pumpkin | `#381102` |   56 |   17 |    2 |   11 |   18 |   16 |   15 |   12 |   12 |
-|       Dark pumpkin | `#680f00` |  104 |   15 |    0 |   21 |   38 |   36 |   25 |   22 |   22 |
-|      Vivid pumpkin | `#ff5d00` |  255 |   93 |    0 |   76 |   85 |  107 |   82 |   35 |   35 |
-|     Pastel pumpkin | `#ffd7a3` |  255 |  215 |  163 |   96 |   34 |   42 |   98 |   18 |   18 |
-|               Gold | `#9f6c00` |  159 |  108 |    0 |   49 |   12 |   84 |   52 |    0 |   40 |
-|      Midnight gold | `#2d1e00` |   45 |   30 |    0 |   13 |    3 |   21 |   16 |    0 |   20 |
-|          Dark gold | `#543100` |   84 |   49 |    0 |   24 |   11 |   42 |   26 |    0 |   36 |
-|         Vivid gold | `#ffb900` |  255 |  185 |    0 |   83 |   27 |  152 |   87 |    0 |   58 |
-|        Pastel gold | `#fff481` |  255 |  244 |  129 |   97 |   -2 |   59 |   98 |    0 |   25 |
-|               Lime | `#2b8a11` |   43 |  138 |   17 |   50 |  -48 |   50 |   51 |  -23 |   23 |
-|      Midnight lime | `#0d2706` |   13 |   39 |    6 |   13 |  -18 |   16 |   15 |  -11 |   11 |
-|          Dark lime | `#004700` |    0 |   71 |    0 |   25 |  -38 |   38 |   26 |  -21 |   21 |
-|         Vivid lime | `#00e000` |    0 |  224 |    0 |   77 |  -90 |   95 |   77 |  -34 |   34 |
-|        Pastel lime | `#caffaf` |  202 |  255 |  175 |   99 |  -38 |   38 |   98 |  -18 |   18 |
-|               Mint | `#009771` |    0 |  151 |  113 |   51 |  -92 |    4 |   50 |  -36 |    0 |
-|      Midnight mint | `#002b1f` |    0 |   43 |   31 |   13 |  -29 |    1 |   15 |  -18 |    0 |
-|          Dark mint | `#005237` |    0 |   82 |   55 |   26 |  -92 |    3 |   25 |  -32 |    0 |
-|         Vivid mint | `#00fdb1` |    0 |  253 |  177 |   79 | -208 |    7 |   75 |  -50 |    0 |
-|        Pastel mint | `#93fff7` |  147 |  255 |  247 |   99 |  -43 |    3 |   98 |  -25 |    0 |
-|                Sky | `#0086be` |    0 |  134 |  190 |   50 |  -24 |  -42 |   50 |  -23 |  -23 |
-|       Midnight sky | `#002535` |    0 |   37 |   53 |   13 |   -9 |  -15 |   15 |  -11 |  -11 |
-|           Dark sky | `#004673` |    0 |   70 |  115 |   25 |  -17 |  -37 |   25 |  -21 |  -21 |
-|          Vivid sky | `#00ddff` |    0 |  221 |  255 |   78 |  -36 |  -90 |   75 |  -34 |  -34 |
-|         Pastel sky | `#abffff` |  171 |  255 |  255 |   99 |  -18 |  -27 |   98 |  -18 |  -18 |
-|           Bilberry | `#5957f1` |   89 |   87 |  241 |   46 |   46 |  -77 |   48 |    0 |  -35 |
-|  Midnight bilberry | `#171a41` |   23 |   26 |   65 |   11 |   13 |  -26 |   14 |    0 |  -18 |
-|      Dark bilberry | `#2e14a2` |   46 |   20 |  162 |   23 |   52 |  -70 |   24 |    0 |  -32 |
-|     Vivid bilberry | `#6c88ff` |  108 |  136 |  255 |   75 |   86 | -142 |   75 |   -6 |  -48 |
-|    Pastel bilberry | `#e9f4ff` |  233 |  244 |  255 |   98 |   14 |  -41 |   98 |    0 |  -25 |
-|              Lilac | `#a734cd` |  167 |   52 |  205 |   46 |   67 |  -57 |   50 |   24 |  -24 |
-|     Midnight lilac | `#2f1139` |   47 |   17 |   57 |   11 |   23 |  -19 |   15 |   12 |  -12 |
-|         Dark lilac | `#5f007f` |   95 |    0 |  127 |   21 |   60 |  -50 |   25 |   22 |  -22 |
-|        Vivid lilac | `#df41ff` |  223 |   65 |  255 |   70 |  111 | -125 |   73 |   17 |  -42 |
-|       Pastel lilac | `#ffdcff` |  255 |  220 |  255 |   96 |   39 |  -33 |   98 |   18 |  -18 |
-|          Raspberry | `#c2286e` |  194 |   40 |  110 |   44 |   64 |   -2 |   50 |   34 |    0 |
-| Midnight raspberry | `#380d1f` |   56 |   13 |   31 |   11 |   24 |   -1 |   15 |   17 |    0 |
-|     Dark raspberry | `#6d0035` |  109 |    0 |   53 |   20 |   49 |   -1 |   25 |   31 |    0 |
-|    Vivid raspberry | `#ff00a8` |  255 |    0 |  168 |   65 |  101 |   -3 |   73 |   46 |    0 |
-|   Pastel raspberry | `#ffcef5` |  255 |  206 |  245 |   95 |   48 |   -1 |   98 |   25 |    0 |
-|             base00 | `#5b777f` |   91 |  119 |  127 |   48 |   -8 |   -8 |   50 |   -9 |   -7 |
-|             base03 | `#002735` |    0 |   39 |   53 |   13 |  -14 |  -14 |   15 |  -14 |  -11 |
-|             base02 | `#003341` |    0 |   51 |   65 |   19 |  -14 |  -14 |   20 |  -14 |  -11 |
-|             base01 | `#4d6b74` |   77 |  107 |  116 |   43 |   -8 |   -8 |   45 |  -10 |   -8 |
-|              base0 | `#7e8d8e` |  126 |  141 |  142 |   58 |   -5 |   -3 |   60 |   -7 |   -3 |
-|              base1 | `#8a9a9b` |  138 |  154 |  155 |   62 |   -6 |   -2 |   65 |   -7 |   -3 |
-|              base2 | `#f5eddc` |  245 |  237 |  220 |   94 |    0 |    9 |   95 |    0 |    5 |
-|              base3 | `#fff7e6` |  255 |  247 |  230 |   97 |    0 |    9 |   98 |    0 |    5 |
-|        Medium grey | `#727070` |  114 |  112 |  112 |   48 |    1 |    1 |   50 |    0 |    0 |
-|              Black | `#000000` |    0 |    0 |    0 |    0 |    0 |    0 |    0 |    0 |    0 |
-|          Dark grey | `#383636` |   56 |   54 |   54 |   23 |    0 |    0 |   25 |    0 |    0 |
-|         Light grey | `#b4b0b0` |  180 |  176 |  176 |   72 |    1 |    1 |   75 |    0 |    0 |
-|              White | `#ffffff` |  255 |  255 |  255 |  100 |    0 |    0 |  100 |    0 |    0 |
+|        Name        |    Hex    |  R   |  G   |  B   |  L*  |  a*  |  b*  |   Jz   |   az    |   bz    |
+| ------------------ | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ------- | ------- |
+|            Pumpkin | `#aa3d28` |  170 |   61 |   40 |   41 |   44 |   36 |    0.1 |  0.0707 |  0.0707 |
+|   Midnight pumpkin | `#370900` |   55 |    9 |    0 |    9 |   22 |   14 |   0.03 |  0.0354 |  0.0354 |
+|       Dark pumpkin | `#600000` |   96 |    0 |    0 |   18 |   39 |   32 |   0.05 |  0.0636 |  0.0636 |
+|      Vivid pumpkin | `#df3e25` |  223 |   62 |   37 |   51 |   61 |   50 |  0.125 |  0.0928 |  0.0928 |
+|     Pastel pumpkin | `#dec2bb` |  222 |  194 |  187 |   81 |    9 |    7 |   0.18 |  0.0141 |  0.0141 |
+|               Gold | `#846900` |  132 |  105 |    0 |   46 |    1 |   66 |    0.1 |     0.0 |     0.1 |
+|      Midnight gold | `#281d00` |   40 |   29 |    0 |   11 |    0 |   21 |   0.03 |     0.0 |    0.05 |
+|          Dark gold | `#473000` |   71 |   48 |    0 |   21 |    4 |   47 |   0.05 |     0.0 |    0.09 |
+|         Vivid gold | `#c29000` |  194 |  144 |    0 |   62 |    6 |  134 | 0.1375 |    -0.0 |    0.15 |
+|        Pastel gold | `#d0cbb5` |  208 |  203 |  181 |   82 |   -2 |   12 |   0.18 |     0.0 |    0.02 |
+|               Lime | `#188925` |   24 |  137 |   37 |   50 |  -50 |   43 |    0.1 | -0.0707 |  0.0707 |
+|      Midnight lime | `#002a00` |    0 |   42 |    0 |   13 |  -26 |   19 |   0.03 | -0.0354 |  0.0354 |
+|          Dark lime | `#004900` |    0 |   73 |    0 |   25 |  -44 |   40 |   0.05 | -0.0636 |  0.0636 |
+|         Vivid lime | `#00b023` |    0 |  176 |   35 |   63 |  -65 |   56 |  0.125 | -0.0884 |  0.0884 |
+|        Pastel lime | `#bdd4bc` |  189 |  212 |  188 |   83 |  -12 |    9 |   0.18 | -0.0141 |  0.0141 |
+|               Mint | `#00936e` |    0 |  147 |  110 |   51 |  -69 |    5 |    0.1 |    -0.1 |    -0.0 |
+|      Midnight mint | `#002d1f` |    0 |   45 |   31 |   14 |  -35 |    3 |   0.03 |   -0.05 |    -0.0 |
+|          Dark mint | `#005036` |    0 |   80 |   54 |   26 |  -63 |    5 |   0.05 |   -0.09 |     0.0 |
+|         Vivid mint | `#00bd8c` |    0 |  189 |  140 |   64 |  -91 |    7 |  0.125 |  -0.125 |     0.0 |
+|        Pastel mint | `#b0d6cb` |  176 |  214 |  203 |   83 |  -15 |    1 |   0.18 |   -0.02 |     0.0 |
+|                Sky | `#007fa7` |    0 |  127 |  167 |   47 |  -28 |  -33 |    0.1 | -0.0707 | -0.0707 |
+|       Midnight sky | `#002635` |    0 |   38 |   53 |   12 |  -15 |  -16 |   0.03 | -0.0354 | -0.0354 |
+|           Dark sky | `#004160` |    0 |   65 |   96 |   23 |  -22 |  -28 |   0.05 | -0.0636 | -0.0636 |
+|          Vivid sky | `#00a2da` |    0 |  162 |  218 |   59 |  -34 |  -44 |  0.125 | -0.0884 | -0.0884 |
+|         Pastel sky | `#b3d1d9` |  179 |  209 |  217 |   82 |   -8 |   -7 |   0.18 | -0.0141 | -0.0141 |
+|           Bilberry | `#5954ba` |   89 |   84 |  186 |   41 |   30 |  -53 |    0.1 |    -0.0 |    -0.1 |
+|  Midnight bilberry | `#15153c` |   21 |   21 |   60 |    9 |   14 |  -25 |   0.03 |    -0.0 |   -0.05 |
+|      Dark bilberry | `#271c6e` |   39 |   28 |  110 |   17 |   31 |  -46 |   0.05 |    -0.0 |   -0.09 |
+|     Vivid bilberry | `#7164f5` |  113 |  100 |  245 |   51 |   44 |  -71 |  0.125 |     0.0 |  -0.125 |
+|    Pastel bilberry | `#c4c8df` |  196 |  200 |  223 |   81 |    3 |  -12 |   0.18 |    -0.0 |   -0.02 |
+|              Lilac | `#942a9e` |  148 |   42 |  158 |   39 |   58 |  -41 |    0.1 |  0.0689 | -0.0689 |
+|     Midnight lilac | `#2e0231` |   46 |    2 |   49 |    8 |   29 |  -20 |   0.03 |  0.0345 | -0.0345 |
+|         Dark lilac | `#510059` |   81 |    0 |   89 |   15 |   53 |  -35 |   0.05 |   0.062 |  -0.062 |
+|        Vivid lilac | `#bf20cd` |  191 |   32 |  205 |   48 |   77 |  -54 |  0.125 |  0.0862 | -0.0862 |
+|       Pastel lilac | `#d6c0d8` |  214 |  192 |  216 |   80 |   12 |   -9 |   0.18 |  0.0138 | -0.0138 |
+|          Raspberry | `#ad1b68` |  173 |   27 |  104 |   39 |   61 |   -6 |    0.1 |  0.0975 |    -0.0 |
+| Midnight raspberry | `#38001c` |   56 |    0 |   28 |    8 |   31 |   -3 |   0.03 |  0.0488 |    -0.0 |
+|     Dark raspberry | `#620031` |   98 |    0 |   49 |   16 |   53 |   -6 |   0.05 |  0.0877 |     0.0 |
+|    Vivid raspberry | `#dc1884` |  220 |   24 |  132 |   49 |   75 |   -8 |  0.125 |  0.1158 |     0.0 |
+|   Pastel raspberry | `#e0bdc9` |  224 |  189 |  201 |   80 |   14 |   -1 |   0.18 |  0.0195 |    -0.0 |
+|             base00 | `#5b777f` |   91 |  119 |  127 |   48 |   -8 |   -8 | 0.1048 | -0.0162 |  -0.017 |
+|             base03 | `#002735` |    0 |   39 |   53 |   13 |  -14 |  -14 | 0.0317 | -0.0317 |  -0.032 |
+|             base02 | `#003341` |    0 |   51 |   65 |   19 |  -14 |  -14 | 0.0423 | -0.0316 | -0.0319 |
+|             base01 | `#4d6b74` |   77 |  107 |  116 |   43 |   -8 |   -8 | 0.0944 | -0.0175 | -0.0184 |
+|              base0 | `#7e8d8e` |  126 |  141 |  142 |   58 |   -5 |   -3 |  0.126 | -0.0093 | -0.0059 |
+|              base1 | `#8a9a9b` |  138 |  154 |  155 |   62 |   -6 |   -2 | 0.1368 | -0.0092 | -0.0053 |
+|              base2 | `#f5eddc` |  245 |  237 |  220 |   94 |    0 |    9 | 0.2082 |  0.0021 |  0.0145 |
+|              base3 | `#fff7e6` |  255 |  247 |  230 |   97 |    0 |    9 | 0.2161 |  0.0021 |  0.0144 |
+|        Medium grey | `#727070` |  114 |  112 |  112 |   48 |    1 |    1 | 0.1051 |  0.0013 |  0.0011 |
+|              Black | `#000000` |    0 |    0 |    0 |    0 |    0 |    0 |    0.0 |     0.0 |     0.0 |
+|          Dark grey | `#383636` |   56 |   54 |   54 |   23 |    0 |    0 |  0.053 |  0.0008 |  0.0007 |
+|         Light grey | `#b4b0b0` |  180 |  176 |  176 |   72 |    1 |    1 | 0.1598 |  0.0016 |  0.0014 |
+|              White | `#ffffff` |  255 |  255 |  255 |  100 |    0 |    0 | 0.2221 | -0.0001 | -0.0001 |
 
 
 ### J'a'b' hue/chroma
 
 <img src="Plots/Jab-Hue-Chroma.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Chroma polar plot" width="45%">
 
-### J'a'b' hue/lightness
+### CIELAB hue/chroma
 
-<img src="Plots/Jab-Hue-Lightness.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Lightness polar plot" width="45%">
+<img src="Plots/CIELAB-Hue-Chroma.svg?raw=true&sanitize=true" alt="CIELAB Hue/Chroma polar plot" width="45%">
 
 ### J'a'b' combined scatter
 
@@ -219,9 +220,10 @@ The following table is also available in [tab-delimited text format](Values/Star
 
 ## Colour modelling
 
-As noted in introduction, Stardust was developed using a colour appearance
-model, or CAM, and specifically the J'a'b' (CAM16) model, which is one of 
-the "Lab" family of models (which also includes CIE L*a*b*, OKLab, and so on).
+As noted in introduction, the current version of Stardust was developed using
+a colour appearance model, or CAM, and specifically the J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>
+model, which is one of  the "Lab" family of models (which also includes CIE L*a*b*, OKLab, and
+so on).
 
 The easiest way to consider Lab models is:—
 
@@ -253,9 +255,9 @@ screen, they have become the same colour.
 
 Rather than complicate the palette definition by using different models for the
 different colour variants, the current version of Stardust is defined using a
-single general-purpose model, and then a series of adjustments are applied.
-Without a significant amount of data gathering and analysis, this will remain
-the most subjective aspect of the process. Fortunately, colour appearance models
+single general-purpose model, and then a series of adjustments are applied to
+specific shades. Without a significant amount of data gathering and analysis, this will
+remain the most subjective aspect of the process. Fortunately, colour appearance models
 are an active area of research, and so hopefully future versions of Stardust can
 be more data-driven.
 
