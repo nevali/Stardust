@@ -36,7 +36,7 @@ Stardust isn't based directly upon Solarized, but because it follows similar
 design principles, the Stardust hues complement slightly-modified versions of
 the Solarized base tones quite nicely.
 
-The base shades as they appear in Stardust do not match the Solarized values:
+The base shades as they appear in Stardust do not match the Solarized values;
 this is because they've been re-specified in J'a'b' and matched with the rest
 of the palette. Meanwhile, Stardust's hues are quite different to Solarized's:
 if you're especially attached to Solarized's accent palette, Stardust may not
@@ -54,7 +54,7 @@ these are the nearest to a direct drop-in replacement for Solarized themes.
 Stardust uses an `x.y.z` versioning scheme, similar to but not entirely
 matching [Semantic Versioning](https://semver.org):-
 
-* Major versions (`x`) will be incremented when there is a change to one or more J'a'b' values, or the addition or removal of colours altogether
+* Major versions (`x`) will be incremented when there is a change to one or more J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> values, or the addition or removal of colours altogether
 * Minor versions (`y`) will be incremented when there is a change to derived colour values
 * Revisions (`z`) will be incremented when there's a change to anything else (e.g., adding or adjusting a theme)
 
@@ -196,6 +196,10 @@ The following table is also available in [tab-delimited text format](Values/Star
 |              White | `#ffffff` |  255 |  255 |  255 |  100 |    0 |    0 | 0.2221 | -0.0001 | -0.0001 |
 
 
+### J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> hue/chroma
+
+<img src="Plots/Jzazbz-Hue-Chroma.svg?raw=true&sanitize=true" alt="Jzazbz Hue/Chroma polar plot" width="45%">
+
 ### J'a'b' hue/chroma
 
 <img src="Plots/Jab-Hue-Chroma.svg?raw=true&sanitize=true" alt="J'a'b' Hue/Chroma polar plot" width="45%">
@@ -203,6 +207,10 @@ The following table is also available in [tab-delimited text format](Values/Star
 ### CIELAB hue/chroma
 
 <img src="Plots/CIELAB-Hue-Chroma.svg?raw=true&sanitize=true" alt="CIELAB Hue/Chroma polar plot" width="45%">
+
+### J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> combined scatter
+
+<img src="Plots/Jzazbz.svg?raw=true&sanitize=true" alt="Jzazbz 3D scatter-plot" width="45%">
 
 ### J'a'b' combined scatter
 
