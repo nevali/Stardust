@@ -69,7 +69,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 *All values are subject to change*
 
-* 2024-06-04 - Corrected/re-balanced all brightness levels
+* 2024-06-04 - Corrected/re-balanced all brightness levels; adjustments to vivid and pastel shades (Lilac, Raspberry, Pumpkin, Bilberry)
 * 2024-06-03 - *Major change*: Switch from J'a'b' to J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> as the source model; all shades have been re-specified and re-adjustted
 * 2024-06-02 - Palettes: added Apple Color Picker `.clr` file
 * 2024-06-02 - Values: added colour values as a [tab-delimited text file](Values/Stardust.txt)
@@ -146,7 +146,7 @@ The following table is also available in [tab-delimited text format](Values/Star
 |   Midnight pumpkin | `#3f0600` |   63 |    6 |    0 |   10 |   26 |   17 | 0.0333 |  0.0424 |  0.0424 |
 |       Dark pumpkin | `#670a00` |  103 |   10 |    0 |   20 |   39 |   34 | 0.0555 |  0.0636 |  0.0636 |
 |       Deep pumpkin | `#9f0000` |  159 |    0 |    0 |   28 |   69 |   63 | 0.0777 |  0.1061 |  0.1061 |
-|      Vivid pumpkin | `#ff6d4f` |  255 |  109 |   79 |   72 |   72 |   56 | 0.1749 |  0.1008 |  0.1008 |
+|      Vivid pumpkin | `#ff5034` |  255 |   80 |   52 |   71 |   85 |   68 | 0.1749 |  0.1167 |  0.1167 |
 |      Light pumpkin | `#ffa78d` |  255 |  167 |  141 |   81 |   44 |   34 | 0.1888 |  0.0636 |  0.0636 |
 |     Pastel pumpkin | `#ffe0d2` |  255 |  224 |  210 |   94 |   17 |   14 |  0.211 |  0.0255 |  0.0255 |
 |               Gold | `#997300` |  153 |  115 |    0 |   50 |    4 |   97 |  0.111 |    -0.0 |   0.126 |
@@ -181,21 +181,21 @@ The following table is also available in [tab-delimited text format](Values/Star
 |  Midnight bilberry | `#181546` |   24 |   21 |   70 |   10 |   18 |  -30 | 0.0333 |     0.0 |   -0.06 |
 |      Dark bilberry | `#2c2475` |   44 |   36 |  117 |   20 |   29 |  -46 | 0.0555 |    -0.0 |   -0.09 |
 |      Deep bilberry | `#4300c0` |   67 |    0 |  192 |   25 |   70 |  -83 | 0.0777 |    -0.0 |   -0.15 |
-|     Vivid bilberry | `#9d84ff` |  157 |  132 |  255 |   68 |   61 |  -95 | 0.1666 |     0.0 |   -0.15 |
+|     Vivid bilberry | `#816bff` |  129 |  107 |  255 |   70 |   97 | -143 | 0.1833 | -0.0296 | -0.2079 |
 |     Light bilberry | `#bdc1ff` |  189 |  193 |  255 |   82 |   25 |  -56 | 0.1888 |    -0.0 |   -0.09 |
-|    Pastel bilberry | `#e6ecff` |  230 |  236 |  255 |   94 |    7 |  -23 |  0.211 |     0.0 |  -0.036 |
+|    Pastel bilberry | `#cce1ff` |  204 |  225 |  255 |   90 |    5 |  -29 | 0.2005 | -0.0067 | -0.0474 |
 |              Lilac | `#aa12b7` |  170 |   18 |  183 |   42 |   72 |  -50 |  0.111 |  0.0827 | -0.0827 |
 |     Midnight lilac | `#35003a` |   53 |    0 |   58 |    8 |   36 |  -24 | 0.0333 |  0.0424 | -0.0424 |
 |         Dark lilac | `#590061` |   89 |    0 |   97 |   18 |   53 |  -36 | 0.0555 |  0.0636 | -0.0636 |
 |         Deep lilac | `#870099` |  135 |    0 |  153 |   22 |   99 |  -64 | 0.0777 |  0.1061 | -0.1061 |
-|        Vivid lilac | `#ff00ff` |  255 |    0 |  255 |   63 |  104 |  -72 | 0.1666 |  0.1061 | -0.1061 |
+|        Vivid lilac | `#e43af4` |  228 |   58 |  244 |   58 |   84 |  -59 | 0.1499 |  0.0902 | -0.0902 |
 |        Light lilac | `#ff97ff` |  255 |  151 |  255 |   79 |   61 |  -44 | 0.1888 |  0.0636 | -0.0636 |
 |       Pastel lilac | `#ffdbff` |  255 |  219 |  255 |   93 |   24 |  -18 |  0.211 |  0.0255 | -0.0255 |
 |          Raspberry | `#c70074` |  199 |    0 |  116 |   42 |   74 |   -8 |  0.111 |   0.117 |     0.0 |
 | Midnight raspberry | `#40001f` |   64 |    0 |   31 |    9 |   37 |   -4 | 0.0333 |    0.06 |    -0.0 |
 |     Dark raspberry | `#6a0037` |  106 |    0 |   55 |   18 |   54 |   -6 | 0.0555 |    0.09 |     0.0 |
 |     Deep raspberry | `#a2004d` |  162 |    0 |   77 |   25 |   91 |  -11 | 0.0777 |    0.15 |    -0.0 |
-|    Vivid raspberry | `#ff00b3` |  255 |    0 |  179 |   65 |  102 |  -11 | 0.1666 |  0.1463 |    -0.0 |
+|    Vivid raspberry | `#ff21a0` |  255 |   33 |  160 |   59 |   86 |   -9 | 0.1499 |  0.1275 |    -0.0 |
 |    Light raspberry | `#ff8cd1` |  255 |  140 |  209 |   79 |   66 |   -6 | 0.1888 |    0.09 |    -0.0 |
 |   Pastel raspberry | `#ffd6ef` |  255 |  214 |  239 |   92 |   28 |   -3 |  0.211 |   0.036 |    -0.0 |
 |             base00 | `#627d89` |   98 |  125 |  137 |   51 |   -7 |   -9 |  0.111 | -0.0154 | -0.0197 |
