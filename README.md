@@ -18,7 +18,7 @@ Medium grey, Light grey, and White), and lightly-adapted versions of Solarized's
 
 The eight hues are evenly spaced around the colour wheel, and because there is
 an even number of them, four of the hues are the direct complements of the
-other four: Pumpkin, Gold, Lime, and Mint complement Sky, Bilberry, Lilac, and
+other four: Pumpkin, Gold, Lime, and Spearmint complement Sky, Bilberry, Lilac, and
 Raspberry.
 
 This preview version of Stardust was developed using the [J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>](https://doi.org/10.1364/OE.25.015131)
@@ -69,6 +69,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 
 *All values are subject to change*
 
+* 2024-06-06 - Renamed _Mint_ to _Spearmint_; adjusted Raspberry, Pumpkin, and Gold mid tones
 * 2024-06-04 - Corrected/re-balanced all brightness levels; adjustments to vivid and pastel shades (Lilac, Raspberry, Pumpkin, Bilberry)
 * 2024-06-03 - *Major change*: Switch from J'a'b' to J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> as the source model; all shades have been re-specified and re-adjustted
 * 2024-06-02 - Palettes: added Apple Color Picker `.clr` file
@@ -142,26 +143,26 @@ The following table is also available in [tab-delimited text format](Values/Star
 
 |        Name        |    Hex    |  R   |  G   |  B   |  L*  |  a*  |  b*  |   Jz   |   az    |   bz    |
 | ------------------ | --------- | ---- | ---- | ---- | ---- | ---- | ---- | ------ | ------- | ------- |
-|            Pumpkin | `#c43921` |  196 |   57 |   33 |   45 |   54 |   45 |  0.111 |  0.0849 |  0.0849 |
+|            Pumpkin | `#c13e28` |  193 |   62 |   40 |   46 |   51 |   42 |  0.111 |  0.0806 |  0.0806 |
 |   Midnight pumpkin | `#3f0600` |   63 |    6 |    0 |   10 |   26 |   17 | 0.0333 |  0.0424 |  0.0424 |
 |       Dark pumpkin | `#670a00` |  103 |   10 |    0 |   20 |   39 |   34 | 0.0555 |  0.0636 |  0.0636 |
 |      Vivid pumpkin | `#ff5034` |  255 |   80 |   52 |   71 |   85 |   68 | 0.1749 |  0.1167 |  0.1167 |
 |     Pastel pumpkin | `#ffe0d2` |  255 |  224 |  210 |   94 |   17 |   14 |  0.211 |  0.0255 |  0.0255 |
-|               Gold | `#997300` |  153 |  115 |    0 |   50 |    4 |   97 |  0.111 |    -0.0 |   0.126 |
+|               Gold | `#9c7200` |  156 |  114 |    0 |   50 |    6 |  112 |  0.111 |    -0.0 |   0.138 |
 |      Midnight gold | `#2d2000` |   45 |   32 |    0 |   13 |    1 |   26 | 0.0333 |    -0.0 |    0.06 |
 |          Dark gold | `#4d3700` |   77 |   55 |    0 |   24 |    3 |   51 | 0.0555 |     0.0 |    0.09 |
-|         Vivid gold | `#ffc700` |  255 |  199 |    0 |   83 |    6 |  130 | 0.1833 |     0.0 |  0.1575 |
+|         Vivid gold | `#ffc600` |  255 |  198 |    0 |   83 |    7 |  154 | 0.1833 |     0.0 |   0.165 |
 |        Pastel gold | `#fef3c7` |  254 |  243 |  199 |   96 |   -3 |   23 |  0.211 |    -0.0 |   0.036 |
 |               Lime | `#009c16` |    0 |  156 |   22 |   56 |  -61 |   53 |  0.111 | -0.0849 |  0.0849 |
 |      Midnight lime | `#002f00` |    0 |   47 |    0 |   15 |  -30 |   24 | 0.0333 | -0.0424 |  0.0424 |
 |          Dark lime | `#005000` |    0 |   80 |    0 |   28 |  -43 |   41 | 0.0555 | -0.0636 |  0.0636 |
 |         Vivid lime | `#00f02e` |    0 |  240 |   46 |   83 |  -83 |   72 | 0.1666 | -0.1061 |  0.1061 |
 |        Pastel lime | `#d6ffd4` |  214 |  255 |  212 |   97 |  -23 |   18 |  0.211 | -0.0255 |  0.0255 |
-|               Mint | `#00a87c` |    0 |  168 |  124 |   57 |  -85 |    7 |  0.111 |   -0.12 |    -0.0 |
-|      Midnight mint | `#003423` |    0 |   52 |   35 |   16 |  -42 |    3 | 0.0333 |   -0.06 |    -0.0 |
-|          Dark mint | `#00573c` |    0 |   87 |   60 |   29 |  -62 |    5 | 0.0555 |   -0.09 |     0.0 |
-|         Vivid mint | `#00ffc0` |    0 |  255 |  192 |   85 | -118 |    9 | 0.1666 |   -0.15 |     0.0 |
-|        Pastel mint | `#b9fff2` |  185 |  255 |  242 |   98 |  -28 |    3 |  0.211 |  -0.036 |     0.0 |
+|          Spearmint | `#00a87c` |    0 |  168 |  124 |   57 |  -85 |    7 |  0.111 |   -0.12 |    -0.0 |
+| Midnight spearmint | `#003423` |    0 |   52 |   35 |   16 |  -42 |    3 | 0.0333 |   -0.06 |    -0.0 |
+|     Dark spearmint | `#00573c` |    0 |   87 |   60 |   29 |  -62 |    5 | 0.0555 |   -0.09 |     0.0 |
+|    Vivid spearmint | `#00ffc0` |    0 |  255 |  192 |   85 | -118 |    9 | 0.1666 |   -0.15 |     0.0 |
+|   Pastel spearmint | `#b9fff2` |  185 |  255 |  242 |   98 |  -28 |    3 |  0.211 |  -0.036 |     0.0 |
 |                Sky | `#008fc3` |    0 |  143 |  195 |   53 |  -32 |  -41 |  0.111 | -0.0849 | -0.0849 |
 |       Midnight sky | `#002b3d` |    0 |   43 |   61 |   14 |  -17 |  -18 | 0.0333 | -0.0424 | -0.0424 |
 |           Dark sky | `#004867` |    0 |   72 |  103 |   26 |  -22 |  -28 | 0.0555 | -0.0636 | -0.0636 |
@@ -177,7 +178,7 @@ The following table is also available in [tab-delimited text format](Values/Star
 |         Dark lilac | `#590061` |   89 |    0 |   97 |   18 |   53 |  -36 | 0.0555 |  0.0636 | -0.0636 |
 |        Vivid lilac | `#e43af4` |  228 |   58 |  244 |   58 |   84 |  -59 | 0.1499 |  0.0902 | -0.0902 |
 |       Pastel lilac | `#ffdbff` |  255 |  219 |  255 |   93 |   24 |  -18 |  0.211 |  0.0255 | -0.0255 |
-|          Raspberry | `#c70074` |  199 |    0 |  116 |   42 |   74 |   -8 |  0.111 |   0.117 |     0.0 |
+|          Raspberry | `#bb1f71` |  187 |   31 |  113 |   42 |   64 |   -7 | 0.1082 |   0.102 |     0.0 |
 | Midnight raspberry | `#40001f` |   64 |    0 |   31 |    9 |   37 |   -4 | 0.0333 |    0.06 |    -0.0 |
 |     Dark raspberry | `#6a0037` |  106 |    0 |   55 |   18 |   54 |   -6 | 0.0555 |    0.09 |     0.0 |
 |    Vivid raspberry | `#ff21a0` |  255 |   33 |  160 |   59 |   86 |   -9 | 0.1499 |  0.1275 |    -0.0 |
