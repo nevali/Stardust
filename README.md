@@ -305,7 +305,7 @@ colours that don't appear in a rainbow: you may have heard for example that
 
 ## I can sing a rainbow
 
-In a sense, you can think of each of the colours of the rainbow as being like a
+In a (very real) sense, you can think of each of the colours of the rainbow as being like a
 [pure sine-wave tone](https://en.wikipedia.org/wiki/Pure_tone) at a particular
 [pitch](https://en.wikipedia.org/wiki/Pitch_%28music%29), and the _names_ of
 the colours are sort of like the names of musical notes, [a subject which rivals this for complexity](https://en.wikipedia.org/wiki/Musical_tuning#Tuning_systems).
@@ -324,11 +324,11 @@ is filtered before it gets here.
 It's generally unwise and counterproductive to [look more than fleetingly at the Sun](https://www.astronomy.com/observing/some-of-the-the-science-behind-why-you-should-never-look-directly-at-the-sun-without-proper-eye-protection/),
 and given that light travels in straight lines, most of the daylight we see has
 not come directly from our star to our eyes, but instead has reached us after
-it's interacted with some matter—such as that floating around in the atmopshere,
+it's interacted with some matter—[such as that floating around in the atmosphere](https://en.wikipedia.org/wiki/Rayleigh_scattering),
 or the environment around you—and each of those interactions will alter the
 light in some way.
 
-You probably remember learning at school that the colours of things are dictated by
+You probably remember learning at school that the colours of _things_ are dictated by
 which wavelengths of light they absorb and which they [reflect](https://en.wikipedia.org/wiki/Reflection_(physics)#Reflection_of_light),
 and this—depending upon your point of view—you may find to be a perfectly good model
 or one that leads to be more questions than answers (such as "what does it mean for a
@@ -357,12 +357,13 @@ appear completely black to human vision no matter the light shone upon it; it's
 and remains (appropriately) elusive).
 
 But converting the photon's energy into kinetic energy is just one option. If
-the photon is energetic enough, having just the right energy that an electron
-absorbing it would be able to jump up to another energy level, then that jump
+the photon is energetic enough (so depending upon its wavelength),
+having [just the right energy](https://en.wikipedia.org/wiki/Color_of_chemicals)
+that an electron absorbing it would be able to jump up to another energy level, then that jump
 and subsequent fall back will result in the emission of more electromagnetic 
 radiation: i.e., a new photon. Reflection, [refraction](https://en.wikipedia.org/wiki/Refraction), and
 [photoluminesence](https://en.wikipedia.org/wiki/Photoluminescence)
-[can all be thought of](https://en.wikipedia.org/wiki/QED:_The_Strange_Theory_of_Light_and_Matter),
+[can all be thought of](https://en.wikipedia.org/wiki/QED:_The_Strange_Theory_of_Light_and_Matter)
 [as variations on this same process](https://physics.stackexchange.com/questions/2041/how-are-classical-optics-phenomena-explained-in-qed-snells-law),
 where the direction, wavelength, and in the case of [phospheresence](https://en.wikipedia.org/wiki/Phosphorescence),
 the number of emitted photons and over what duration, differ.
@@ -384,16 +385,21 @@ amounts being absorbed—what we might call "environmental factors" generally,
 but in the case of light and colour, we can be more specific: [lighting conditions](https://en.wikipedia.org/wiki/Color_temperature#Categorizing_different_lighting)—which
 we'll come back to later.
 
+You could try to arrange for consistent lighting conditions before trying to
+take your spectrogram, but [for the most part](https://en.wikipedia.org/wiki/The_dress)
+humans are able to tell what colour something is without doing that. You could
+say that colour seems to be relative.
+
 ## Look into my eyes and tell me what you see
 
 Before you can even look at the spectrogram of your colour, we have to deal
 with what happens when these photons actually reach your eyes. Humans, like
 [many primates](https://en.wikipedia.org/wiki/Evolution_of_color_vision_in_primates),
 typically have [red-green-blue trichromatic vision](https://en.wikipedia.org/wiki/Trichromacy),
-which means we have red-sensitive, green-sensitive, and blue-sensitive cones
+which means we have red-sensitive, green-sensitive, and blue-sensitive [cones](https://en.wikipedia.org/wiki/Cone_cell)
 in our retinas, all of which generate signals in our optic nerves
-simultaneously, the intensities of which depending upon the amount of light in their respective ranges that
-they receive.
+simultaneously, the intensities of which depending upon the amount of light in
+their respective ranges that they receive.
 
 There are two interesting cases here: one is [magenta](https://en.wikipedia.org/wiki/Magenta),
 mentioned above. It's the colour we see when approximately equal amounts of red
@@ -409,12 +415,12 @@ you would have a signal that you could play as audio, and it would produce a
 distinct sound for each colour of light that you pointed it at, but you would
 only be able to point it at one colour at a time—your brain might be able to
 perform clever tricks with sound, but the _information density_ of colour vision
-is hue in comparison—we can't see magenta as "red _and_ blue", but we _can_ see
+is huge in comparison—we can't see magenta as "red _and_ blue", but we _can_ see
 a whole field of vision's worth of colours simultaneously and distinguish them.
 
 Being able to mentally decompose what we see into reds, greens, and blues so that
 you could tell that magenta was "lots of red and lots of blue but not green"
-would be a neat trick, but probably doesn't convey a lot of evolutionary
+would be a neat trick, but probably wouldn't have conveyed any evolutionary
 benefit as compared to what happens now: we see magenta.
 
 Vision varies hugely [across the animal kingdom](https://en.wikipedia.org/wiki/Eye).
@@ -439,11 +445,6 @@ of photoreceptors is very broad, then you might be able to see a wider range of
 colour, but have a harder time distinguishing hues, because the broader range
 means there are more combinations of light wavelengths that resulting in the
 same intensity of response being sent down your optic nerve.
-
-Typically, human response curves are such that they overlap enough for our brains
-to be able to tell the difference between low-intensity green-red and low-intensity
-green-blue. If they didn't overlap, those two shades would both just
-look like a darker green.
 
 ## Is all that glisters gold?
 
@@ -529,48 +530,39 @@ you add, the _lighter_ the result.
 
 ## Photo... synthesis
 
-During the 20th century, mechanical, and later electronic, colour
-reproduction kind of took off. The [history of photography is interesting](https://www.youtube.com/watch?v=wbbH77rYaa8&list=PLv0jwu7G_DFV6yW240e6CbiwCLaZ0Z6PV&pp=iAQB),
-and included lots of developments which led to contemporary cameras and
-displays, but otherwise a little beyond our scope. 
-
-For a very long time, the state of the art in light _production_ was
+For a very long time, the state of the art in light production was
 [to heat things up until they got hot enough to not only radiate infrared, but visible light too](https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/).
-This was an imprecise (not to mention often dangerous) science
-from the point of view of generating a particular _colour_ of light, despite
-valiant efforts involving [translucent gels](https://en.wikipedia.org/wiki/Color_gel),
-and it wasn't really until colour television became a thing that electronic
-colour become at all meaningful as a concept.
+This was perilous, inefficient, and from a colour perspective, very imprecise
+(despite valiant efforts involving [translucent gels](https://en.wikipedia.org/wiki/Color_gel)).
 
-Analogue colour television was [messy and complicated and ingenious in equal measure](https://www.youtube.com/watch?v=l4UgZBs7ZGo&list=PLv0jwu7G_DFUGEfwEl0uWduXGcRbT7Ran&pp=iAQB),
-but thankfully now a thing of the past. As such, let's focus on
-current digital displays, the sort in your laptop, TV, phone, or tablet.
-New technologies are being developed all the time but what follows is broadly
-accurate for all of them.
+During the 20th century, [chemical](https://www.youtube.com/watch?v=wbbH77rYaa8&list=PLv0jwu7G_DFV6yW240e6CbiwCLaZ0Z6PV&pp=iAQB),
+and later [electronic](https://www.youtube.com/watch?v=l4UgZBs7ZGo&list=PLv0jwu7G_DFUGEfwEl0uWduXGcRbT7Ran&pp=iAQB), colour
+reproduction became kind of a big deal, and much of our modern understanding
+of colour modelling is rooted in 20th century technological developments.
 
 Colour is reproduced on screens somewhat analogously to the way that video is:
-by doing just enough to provide the right _sorts_ of signals that your brain will
-interpret to get the desired result, whether that's by displaying a sequence of
+by doing just enough to provide the right _sorts_ of signals that your brain 
+(or eyes) will interpret to get the desired result, whether that's by displaying a sequence of
 still images quickly enough that it looks like smooth motion, or by emitting
-combinations of red, green, and blue light that fool your brain into seeing
+combinations of red, green, and blue light that fool your retinas into seeing
 a huge range of hues and shades.
 
-And it's not that a display can produces different _shades_ of red,
-green, and blue in each of its [pixels](https://en.wikipedia.org/wiki/Pixel):
+And it's not that a display can produce different _shades_ of red,
+green, or blue in each of its [pixels](https://en.wikipedia.org/wiki/Pixel):
 only the _intensity_ of each can be varied, the wavelengths are fixed. Just
 by varying those intensity levels, light can be produced that _looks to us_
 like hot pink, or deep teal, or bright white, or yellow. When you see
 [yellow on screen](https://commons.wikimedia.org/wiki/File:Cornwall_Daffodils.jpg),
 you're seeing red and green sub-pixels really close together, closely
 enough that you can't distinguish them. It's not even that your _brain_ is
-being tricked, so much as the cones in your retinas: they simply can't tell the
-difference between "red and green photons arriving together in the same part
+being tricked, so much as the cones in your retinas: they [simply can't tell the difference](https://commons.wikimedia.org/wiki/File:Cone-fundamentals-with-srgb-spectrum.svg)
+between "red and green photons arriving together in the same part
 of your field of vision" and "yellow photons arriving".
 
 ## I see fields of green, red roses too...
 
 Now, most of us know from first-hand experience that this approach of tricking
-our brains into seeing motion and colour works pretty well in general, but
+us into seeing motion and colour works pretty well in general, but
 it's not without challenges.
 
 First, there is the _gamut_ of a display: that is, the range of colours it
@@ -595,14 +587,16 @@ notice that it doesn't look quite the same on your phone's screen as it does
 right in front of you. With careful adjustment of filters and white balance,
 you manage to get it close, but there's still something not quite right. Why?
 
-Partly this is down to your phone's display, but also your phone's camera,
-which will have it's own gamut (which may not entirely line up with the
-display's), and our old friend lighting conditions play a big role in both
-the capture of the photo and how colour appears on a display.
+Partly this is down to your phone's display and the range of colours its
+pixels are capable of reproducing, but also your phone's camera, which will
+have it's own gamut (which may not entirely line up with the display's), 
+and our old friend lighting conditions play a big role in both the capture
+of the photo and how colour appears on a display.
+
 There are also limits to how much all of this can be compensated for in
-post-processing (both the manual adjustments to the photo and any intelligent
-display adjustment technology, the sort increasingly found in higher-end
-phones and laptops).
+post-processing (either through manual adjustments to the photo, or as
+a result of intelligent display adjustment technology, the sort increasingly
+found in higher-end phones and laptops).
 
 Fortunately, improvements in camera, display, and print technology in recent
 decades have come hand in hand with improvements to the ways that we
@@ -655,13 +649,13 @@ information about contrast levels under different lighting conditions.
 
 Systems of this scale are not produced without some significant human effort,
 but rely on colour models to do a lot of heavy lifting. Whilst RGB is _one_
-family as models, there are others—as alluded to above—and the choice of
+family as models, there are others—as mentioned above—and the choice of
 model is defined by what mathematical properties it exhibits. For example,
 whether "lightness" is defined as a single axis, or computed from a combination
 of axes as it is in RGB.
 
 And whilst you can straightforwardly compute hue, saturation and lightness values
-from sRGB primaries and vice versa, but there's no requirement that any colour model
+from sRGB primaries and vice versa, there's no requirement that any colour model
 have a _linear_ relationship with sRGB, and indeed most don't.
 
 sRGB, to use as an example, means that we have a pretty good idea of what
@@ -672,7 +666,7 @@ much does that vary? How much does that _matter_?
 
 ## Colour appearance modelling
 
-As noted in introduction, the current version of Stardust was developed using
+As noted in the introduction, the current version of Stardust was developed using
 a [colour appearance model](https://en.wikipedia.org/wiki/Color_appearance_model) (or _CAM_),
 and specifically the J<sub>z</sub>a<sub>z</sub>b<sub>z</sub>
 model, which is one of  the "Lab" family of models (which also includes CIE L*a*b*, OKLab, and
@@ -792,7 +786,7 @@ we always refer to white as "white" and not "pastel grey" or something.
 
 Generation happens in a similar way to adjustment, albeit prior to it:
 the JSON specifies the colour space, the number of divisions, and which
-axes are have fixed/limited range; the JSON specifies a list of name
+axes have fixed/limited range; the JSON specifies a list of name
 mappings, either as an array or a dictionary; if a dictionary, one of
 the axes (e.g., the hue angle) is used as the lookup key — this means
 that if the range or number of divisions is altered, the names won't
@@ -806,8 +800,8 @@ and particular variants. Stardust works in this way: its JSON file
 doesn't contain any colour values, nor adjustments, nor generation
 parameters, just imports and information about the various outputs
 that should be produced. Indeed, splitting the palette up into
-multiple source files in this way is what makes it feasible to device Stardust
-as a subset in the first place. Imports happen before adjustments
+multiple source files in this way is what makes it feasible to derive
+Stardust as a subset in the first place. Imports happen before adjustments
 are applied to the Colourset doing the importing, which means it can
 perform _additional_ adjustments on top of those already applied.
 
@@ -838,7 +832,7 @@ you get from the target colour, for example using the inverse-square law
 multiplied by a spread factor (a spread of zero meaning it only applies to that
 colour and none of its neighbours).
 
-This approach would mean that rather than adjusting colours, the whole colour
-space is adjusted, using the named colours as reference or anchor points. This
+This approach would mean that rather than adjusting colours, the colour space
+itself is adjusted, using the named colours as reference or anchor points. This
 starts to sound a great deal like a colour profile, and so perhaps it would
 be best to just learn how to specify and apply those instead.
