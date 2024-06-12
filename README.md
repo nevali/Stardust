@@ -228,12 +228,13 @@ The following table is also available in [tab-delimited text format](Values/Star
 
 # Development and future direction
 
-To say that colour is complicated would be a monstrous understatement; colour
-is complicated in ways that we are still learning about today. Digital colour,
-and in particular digital _colour simuluation_ (i.e., _reproducing_ colours
+To say that [colour](https://en.wikipedia.org/wiki/Color) is complicated would be a 
+[monstrous understatement](https://www.gutenberg.org/files/26054/26054-h/26054-h.htm);
+colour is complicated in ways that we are still [learning about today](https://www.nature.com/articles/s41467-024-45820-z).
+Digital colour, and in particular digital _colour synthesis_ (i.e., _reproducing_ colours
 using combinations of red, green, and blue light emitters driven by digital
 signals) is itself a complex, constantly-evolving field of scientific and
-industrial research. New display technologies are continually being developed,
+industrial research. New display technologies are being [continually developed](https://displayweek.org/2024/Program/Seminar),
 often vastly altering our ability to reproduce colours on screens.
 
 This short introduction is unlikely to do the subject justice.
@@ -303,7 +304,7 @@ experienced throughout the majority of its existence. Moreover, there are
 colours that don't appear in a rainbow: you may have heard for example that
 [magenta "doesn't exist"](https://www.bbc.co.uk/reel/video/p0f00wp9/magenta-the-colour-that-doesn-t-exist).
 
-## I can sing a rainbow
+## I can sing a rainbow…
 
 In a (very real) sense, you can think of each of the colours of the rainbow as being like a
 [pure sine-wave tone](https://en.wikipedia.org/wiki/Pure_tone) at a particular
@@ -446,14 +447,14 @@ colour, but have a harder time distinguishing hues, because the broader range
 means there are more combinations of light wavelengths that resulting in the
 same intensity of response being sent down your optic nerve.
 
-## Is all that glisters gold?
+## Is all that glisters really gold?
 
-But these response curves bring us to the other interesting case: yellow.
-Yellow _does_ appear in the rainbow, right where you'd expect it to be. But we
-don't have yellow photoreceptors: instead, we _infer_ yellow when green cones
+But these response curves bring us to the other interesting case: [yellow](https://en.wikipedia.org/wiki/Yellow).
+Yellow _does_ appear in the rainbow, right where you'd expect it to be at roughly 580 nm. But
+we don't have yellow photoreceptors: instead, we _infer_ yellow when green cones
 and the red cones in the same part of our retinas are stimulated at the same
 time a great deal and the blue cones aren't—in the exact same way that we
-infer the existence of magenta.
+_infer_ the existence of magenta.
 
 Does this mean there are two different _kinds_ of yellow? The yellow in the
 rainbow—"pure yellow", if you will—and the yellow that we perceive when we
@@ -465,58 +466,60 @@ triangle that could fit within it, and put bright red at one corner of it, brigh
 green at another, and bright blue at the third. Then, halfway between red and blue,
 you put bright magenta. Between red and green you put bright yellow. Between green
 and blue, bright cyan. This arrangement probably looks quite familiar: it's a
-standard colour wheel, and the relative positions of the hues are ultimately
-defined by how our eyes work, although colour wheels predate that understanding.
+standard [colour wheel](https://en.wikipedia.org/wiki/Color_wheel), and the
+relative positions of the hues are ultimately defined by how our eyes work,
+although colour wheels [predate that understanding](https://en.wikipedia.org/wiki/Opticks).
 
-You may have been told once that the primary colours are "red, blue, and
-yellow", and you may also have been told that it's wrong. We know that we
-have red, green, and blue photoreceptors, so where on earth does this
-red-blue-yellow thing come from? This is one of those things that was right
-_enough_ for some purposes but not for others.
+You may have been told once that the [primary colours](https://en.wikipedia.org/wiki/Primary_color)
+are "red, blue, and yellow", and you may also have been told that it's wrong
+and that they're not. We know that we have red, green, and blue photoreceptors,
+so where on earth does this red-blue-yellow thing come from?
+
+This is one of those things that is simultaneously correct and incorrect.
 
 If you look at the spots on the colour wheel halfway between red, green,
 and blue, you'll see they're cyan, magenta, and yellow: these three primaries,
-together with black, are used for CMYK printing, _the_ standard modern colour
-printing process.
+together with black, are used for [CMYK](https://en.wikipedia.org/wiki/CMYK_color_model)
+printing, _the_ standard modern [colour printing process](https://en.wikipedia.org/wiki/Color_printing).
 
 So yellow _is_ a primary colour? Or isn't it?
 
 It's probably worth clarifying what we mean by "primary colour". And also
-"red" and "blue".
+probably "red" and "blue" in this context.
 
 At its simplest, a primary colour is one that you mix with other primary
 colours to make different colours: its definition then depends a great deal
 on context. If you're working with paints, you can mix varying quantities of
-red, blue, and yellow to get a reasonable range of colours—but how well does
-this range map to the colours we can detect and perceive? What's the [gamut](https://en.wikipedia.org/wiki/Gamut)
-of this [colour space](https://en.wikipedia.org/wiki/Color_space)?
+red, blue, and yellow to get a reasonable range of colours.
 
-Let's deal with red/magenta, blue/cyan first. If you look at magenta and red
-on the colour wheel, you don't need to move them a great deal closer together
-(adjusting their hues as you do) before they start to look like roughly
-the same sort of pinkish hue, and the same happens with cyan and blue as well.
+If you look at magenta and red on the colour wheel, you don't need to move
+them a great deal closer together (adjusting their hues as you do) before
+they start to look like roughly the same sort of pinkish hue, and the same
+happens with cyan and blue as well.
 
-If you keep yellow where it is, the colour space defined by these three
-primaries isn't horribly different to the one that we can perceive, especially 
-not for the purposes of rennaisance painters, it's just… rotated a little.
-
-And that assumes you use _only_ those three colours to make all others, which
-is unlikely to be true. It's easy to see therefore where the idea of _reds_, _blues_, and yellow
-being the primary colours came from, especially when you consider that the
-_names_ of colours have evolved over time and influence our ability to even
-perceive them in the first place.
+We talk about _reds_ and _blues_ as whole families of colours, but you'd
+very rarely talk about _magentas_ or _cyans_, and so part of the story is
+that "red-yellow-blue" and "cyan-magenta-yellow" are really talking about
+the exact same thing—it's just that when you're talking about modern
+printing processes, we can be more precise.
 
 But why _yellow_? And _why_ are these primaries rotated?
 
-What we're looking at here is not really about rotation, but _inversion_: CMY(K)
-and RGB are not just different colour models with different primaries, but
-different _kinds_ of colour model: additive and subtractive.
+What we're looking at here is not really about rotation—showing the three
+sets of primaries on the same colour wheel is a little bit of a red herring,
+but rather _inversion_: CMY(K) and RGB are not just different colour models
+with different primaries, but different _kinds_ of colour model: [additive](https://en.wikipedia.org/wiki/Additive_color)
+and [subtractive](https://en.wikipedia.org/wiki/Subtractive_color). In other
+words, we use cyan, magenta, and yellow, because they're the inverse of red,
+green, and blue respectively.
 
 Much of our understanding of colour was derived not from understanding how
-light or our optical cells behave necessarily, but how pigments do: and in
-particular, how to mix pigments, paints, and dyes to arrive at one which
-_reflects_ to a desired colour. As a consequence, these colour models are
-_subtractive_, because as you add more pigment, the darker the result becomes.
+light or our optical cells behave necessarily, but how [pigments](https://en.wikipedia.org/wiki/Pigment)
+do: and in particular, how to mix pigments, [paints](https://en.wikipedia.org/wiki/Paint),
+and [dyes](https://en.wikipedia.org/wiki/Dye) to arrive at one which
+[_reflects_](https://en.wikipedia.org/wiki/Diffuse_reflection) a desired colour.
+As a consequence, these colour models are _subtractive_, because as you add more
+pigment, the darker the result gets.
 
 (The "K" or "key" in CMYK printing refers to the use of a specific blank ink
 or toner alongside the other three: partly because this is more much more
@@ -524,28 +527,51 @@ efficient when much of what is printed is black text, but also because it
 produces "blacker blacks" than simply mixing lots of cyan, magenta, and
 yellow together).
 
-Because we're talking here ultimately about colour on digital displays, we're
-instead going to be sticking to _additive_ colour models: i.e., the more
-you add, the _lighter_ the result.
+In an subtractive model, the biggest factor in how many primaries you use is
+cost: because we have three sets of photoreceptors, three is the _minimum_
+you can use to achieve a broad gamut, but you [don't have to stop there](https://en.wikipedia.org/wiki/Hexachrome).
+
+Most of what follows pertains to additive, rather than subtractive, colour
+models, because the focus is on on-screen colour, but knowing about subtractive
+models is still useful.
+
+## I see fields of green, red roses too...
+
+For the longest time, incandescence was [the hottest thing in light production](https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/):
+either by [setting things on fire](https://en.wikipedia.org/wiki/Candle), or by
+[trying very hard to _not_ set them on fire](https://en.wikipedia.org/wiki/Incandescent_light_bulb).
+This was variously inefficient, extremely imprecise from a colour perspective
+(despite valiant efforts involving [translucent gels](https://en.wikipedia.org/wiki/Color_gel)),
+and quite perilous when it came to the whole naked flame thing; yelling "fire!"
+in a crowded theatre was something that unfortunately had to happen quite a lot.
+
+As well as great leaps in theoretical physics, the 20th century also heralded
+significant developments in [photographic](https://www.youtube.com/watch?v=wbbH77rYaa8&list=PLv0jwu7G_DFV6yW240e6CbiwCLaZ0Z6PV&pp=iAQB),
+[movie production](https://en.wikipedia.org/wiki/Color_motion_picture_film), and
+[television](https://www.youtube.com/watch?v=l4UgZBs7ZGo&list=PLv0jwu7G_DFUGEfwEl0uWduXGcRbT7Ran&pp=iAQB)
+technology, all of which help form the foundation of our understanding of light and colour today.
+Perhaps knowing what you do now about photons and electrons,
+the idea of making pictures appear on a screen by firing [an electron beam](https://en.wikipedia.org/wiki/Electron_gun)
+at [phosphors](https://en.wikipedia.org/wiki/Phosphor) to [excite them into giving off photons](https://en.wikipedia.org/wiki/Cathode-ray_tube)
+doesn't seem all that wild.
+
+Thankfully, given the picture size of contemporary televisions, [interesting states of matter](https://en.wikipedia.org/wiki/Liquid_crystal) 
+and [semiconductors](https://en.wikipedia.org/wiki/Light-emitting_diode) have
+rendered the vacuum tube-based display technologies obsolete for all but the
+most niche of applications. Nowadays, the biggest difference between televisions
+and computer monitors is that the former come with a computer built-in: for
+the most part, a TV, a laptop, a desktop monitor, a phone, and a tablet can
+all use the same display technologies, and what follows is generic enough to
+apply to all of them.
 
 ## Photo... synthesis
 
-For a very long time, the state of the art in light production was
-[to heat things up until they got hot enough to not only radiate infrared, but visible light too](https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/).
-This was perilous, inefficient, and from a colour perspective, very imprecise
-(despite valiant efforts involving [translucent gels](https://en.wikipedia.org/wiki/Color_gel)).
-
-During the 20th century, [chemical](https://www.youtube.com/watch?v=wbbH77rYaa8&list=PLv0jwu7G_DFV6yW240e6CbiwCLaZ0Z6PV&pp=iAQB),
-and later [electronic](https://www.youtube.com/watch?v=l4UgZBs7ZGo&list=PLv0jwu7G_DFUGEfwEl0uWduXGcRbT7Ran&pp=iAQB), colour
-reproduction became kind of a big deal, and much of our modern understanding
-of colour modelling is rooted in 20th century technological developments.
-
 Colour is reproduced on screens somewhat analogously to the way that video is:
 by doing just enough to provide the right _sorts_ of signals that your brain 
-(or eyes) will interpret to get the desired result, whether that's by displaying a sequence of
-still images quickly enough that it looks like smooth motion, or by emitting
-combinations of red, green, and blue light that fool your retinas into seeing
-a huge range of hues and shades.
+(or eyes) will interpret to get the desired result, whether that's by displaying
+a sequence of still images quickly enough that it looks like smooth motion, or
+by emitting combinations of red, green, and blue light that fool your retinas
+into seeing a huge range of hues and shades.
 
 And it's not that a display can produce different _shades_ of red,
 green, or blue in each of its [pixels](https://en.wikipedia.org/wiki/Pixel):
@@ -558,8 +584,6 @@ enough that you can't distinguish them. It's not even that your _brain_ is
 being tricked, so much as the cones in your retinas: they [simply can't tell the difference](https://commons.wikimedia.org/wiki/File:Cone-fundamentals-with-srgb-spectrum.svg)
 between "red and green photons arriving together in the same part
 of your field of vision" and "yellow photons arriving".
-
-## I see fields of green, red roses too...
 
 Now, most of us know from first-hand experience that this approach of tricking
 us into seeing motion and colour works pretty well in general, but
