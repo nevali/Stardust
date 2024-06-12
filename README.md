@@ -459,7 +459,15 @@ _infer_ the existence of magenta.
 Does this mean there are two different _kinds_ of yellow? The yellow in the
 rainbow—"pure yellow", if you will—and the yellow that we perceive when we
 see a combination of red and green? Yes—and we have no way of telling them
-apart with our eyes. Fortunately, we can use this to our advantage.
+apart with our eyes. Fortunately, we can use this to our advantage, which we'll
+come back to in a moment.
+
+You may have been told once that the [primary colours](https://en.wikipedia.org/wiki/Primary_color)
+are "red, blue, and yellow", and you may also have been told that it's wrong
+and that they're not. We know that we have red, green, and blue photoreceptors,
+so where on earth does this red-blue-yellow thing come from?
+
+This is one of those things that is simultaneously correct and incorrect.
 
 Imagine that you were to draw a circle, and then found the largest equilaterial
 triangle that could fit within it, and put bright red at one corner of it, bright
@@ -469,13 +477,6 @@ and blue, bright cyan. This arrangement probably looks quite familiar: it's a
 standard [colour wheel](https://en.wikipedia.org/wiki/Color_wheel), and the
 relative positions of the hues are ultimately defined by how our eyes work,
 although colour wheels [predate that understanding](https://en.wikipedia.org/wiki/Opticks).
-
-You may have been told once that the [primary colours](https://en.wikipedia.org/wiki/Primary_color)
-are "red, blue, and yellow", and you may also have been told that it's wrong
-and that they're not. We know that we have red, green, and blue photoreceptors,
-so where on earth does this red-blue-yellow thing come from?
-
-This is one of those things that is simultaneously correct and incorrect.
 
 If you look at the spots on the colour wheel halfway between red, green,
 and blue, you'll see they're cyan, magenta, and yellow: these three primaries,
@@ -535,7 +536,7 @@ Most of what follows pertains to additive, rather than subtractive, colour
 models, because the focus is on on-screen colour, but knowing about subtractive
 models is still useful.
 
-## I see fields of green, red roses too...
+## Photo... synthesis
 
 For the longest time, incandescence was [the hottest thing in light production](https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/):
 either by [setting things on fire](https://en.wikipedia.org/wiki/Candle), or by
@@ -564,7 +565,7 @@ the most part, a TV, a laptop, a desktop monitor, a phone, and a tablet can
 all use the same display technologies, and what follows is generic enough to
 apply to all of them.
 
-## Photo... synthesis
+## I see fields of green, red roses too...
 
 Colour is reproduced on screens somewhat analogously to the way that video is:
 by doing just enough to provide the right _sorts_ of signals that your brain 
