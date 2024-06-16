@@ -19,12 +19,12 @@
   * [SVG, HTML, and CSS](#svg-html-and-css)
   * [Non-screen use](#non-screen-use)
 * [Development and future direction](#development-and-future-direction)
-  * [Colour appearance models](#colour-appearance-models)
+  * [Colour appearance modelling](#colour-appearance-modelling)
   * [Colour naming](#colour-naming)
   * [Build process](#build-process)
   * [Future direction](#future-direction)
 * [Colour values](#colour-values)
-  * [Plots](#plots)
+* [Plots](#plots)
 
 ## Introduction
 
