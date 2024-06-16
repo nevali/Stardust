@@ -7,6 +7,27 @@
 
 ** ⚠️ COLOUR VALUES ARE NOT CURRENTLY STABLE AND WILL CHANGE **
 
+* [Introduction](#introduction)
+  * [Compatibility with Solarized](#compatibility-with-solarized)
+* [Releases](#releases)
+  * [Release versioning](#release-versioning)
+  * [ChangeLog](#changelog)
+  * [History](#history)
+* [Using Stardust](#using-stardust)
+  * [Palettes and swatches](#palettes)
+  * [Terminal emulators](#terminal-emulators)
+  * [SVG, HTML, and CSS](#svg-html-and-css)
+  * [Non-screen use](#non-screen-use)
+* [Development and future direction](#development-and-future-direction)
+  * [Colour appearance models](#colour-appearance-models)
+  * [Colour naming](#colour-naming)
+  * [Build process](#build-process)
+  * [Future direction](#future-direction)
+* [Colour values](#colour-values)
+  * [Plots](#plots)
+
+## Introduction
+
 Stardust is a modern, general-purpose colour palette optimised for screen
 use that follows similar design principles to [Ethan Schoonover's Solarized](https://ethanschoonover.com/solarized/),
 and is intended to be useable, for some applications, as a drop-in replacement.
@@ -30,7 +51,7 @@ and [ColorAide](https://github.com/facelessuser/coloraide) Python modules.
 
 <img src="overview.svg?raw=true&sanitize=true" width="100%" alt="Palette overview">
 
-## Compatibility with Solarized
+### Compatibility with Solarized
 
 Stardust isn't based directly upon Solarized, but because it follows similar
 design principles, the Stardust hues complement slightly-modified versions of
@@ -49,7 +70,9 @@ Solar Night" theme files are present, these seek to reproduce faithfully
 the Solarized palette layouts, but using the Stardust colour values, and so
 these are the nearest to a direct drop-in replacement for Solarized themes.
 
-## Release versioning
+## Releases
+
+### Release versioning
 
 Stardust uses an `x.y.z` versioning scheme, similar to but not entirely
 matching [Semantic Versioning](https://semver.org):-
@@ -63,9 +86,9 @@ colours is considered a "backwards-incompatible" change (so that you only need
 to look at the major version number to know which colours are available), but
 adjustments to sRGB values (which are non-canonical) is not.
 
-## ChangeLog
+### ChangeLog
 
-### Pre-release versions:
+#### Pre-release versions:
 
 *All values are subject to change*
 
@@ -77,7 +100,7 @@ adjustments to sRGB values (which are non-canonical) is not.
 * 2024-06-02 - iTerm2: adjusted _Stardust Solar_ themes to more closely match Solarized; added _Stardust High Contrast_ theme.
 * 2024-06-01 - Initial preview _(all values subject to change)_
 
-## History
+### History
 
 Stardust is a carefully-chosen balanced subset of a colour palette developed
 throughout 2023/24 that forms part of a much more comprehensive design system.
@@ -211,7 +234,7 @@ experienced throughout the majority of its existence. Moreover, there are
 colours that don't appear in a rainbow: you may have heard for example that
 [magenta "doesn't exist"](https://www.bbc.co.uk/reel/video/p0f00wp9/magenta-the-colour-that-doesn-t-exist).
 
-### I can sing a rainbow…
+#### I can sing a rainbow…
 
 In a (very real) sense, you can think of each of the colours of the rainbow as being like a
 [pure sine-wave tone](https://en.wikipedia.org/wiki/Pure_tone) at a particular
@@ -242,7 +265,7 @@ and this—depending upon your point of view—you may find to be a perfectly go
 or one that leads to be more questions than answers (such as "what does it mean for a
 _photon_ to be _reflected_ by an _atom_? are atoms… shiny?")
 
-### Quantum quantum quantum
+#### Quantum quantum quantum
 
 A complete picture of photon-matter interactions is
 [probably](https://en.wikipedia.org/wiki/Optical_phenomenon)
@@ -298,7 +321,7 @@ take your spectrogram, but [for the most part](https://en.wikipedia.org/wiki/The
 humans are able to tell what colour something is without doing that. You could
 say that colour seems to be relative.
 
-### Look into my eyes and tell me what you see
+#### Look into my eyes and tell me what you see
 
 Before you can even look at the spectrogram of your colour, we have to deal
 with what happens when these photons actually reach your eyes. Humans, like
@@ -354,7 +377,7 @@ colour, but have a harder time distinguishing hues, because the broader range
 means there are more combinations of light wavelengths that resulting in the
 same intensity of response being sent down your optic nerve.
 
-### Is all that glisters really gold?
+#### Is all that glisters really gold?
 
 But these response curves bring us to the other interesting case: [yellow](https://en.wikipedia.org/wiki/Yellow).
 Yellow _does_ appear in the rainbow, right where you'd expect it to be at roughly 580 nm. But
@@ -443,7 +466,7 @@ Most of what follows pertains to additive, rather than subtractive, colour
 models, because the focus is on on-screen colour, but knowing about subtractive
 models is still useful.
 
-### Photo... synthesis
+#### Photo... synthesis
 
 For the longest time, incandescence was [the hottest thing in light production](https://www.english-heritage.org.uk/visit/inspire-me/blog/blog-posts/history-of-lighting/):
 either by [setting things on fire](https://en.wikipedia.org/wiki/Candle), or by
@@ -491,7 +514,7 @@ being tricked, so much as the cones in your retinas: they [simply can't tell the
 between "red and green photons arriving together in the same part
 of your field of vision" and "yellow photons arriving".
 
-### I see fields of green, red roses too...
+#### I see fields of green, red roses too...
 
 Most of us know from first-hand experience that this approach of tricking
 us into seeing motion and colour works pretty well in general, but
@@ -542,7 +565,7 @@ a [colour profile](https://en.wikipedia.org/wiki/ICC_profile)—virtually every
 device capable of reproducing colour sold in the last two decades has a colour
 profile available for it.
 
-### It's a match!
+#### It's a match!
 
 The combination of colour profiles and reference spaces has greatly improved
 our ability to achieve consistency across a range of devices. Meanwhile,
@@ -833,6 +856,8 @@ The following table is also available in [tab-delimited text format](Values/Star
 |         Light grey | `#bab9b9` |  186 |  185 |  185 |   75 |    0 |    0 | 0.1666 |    -0.0 |     0.0 |
 |              White | `#ffffff` |  255 |  255 |  255 |  100 |    0 |    0 | 0.2221 |    -0.0 |     0.0 |
 
+
+## Plots
 
 ### J<sub>z</sub>a<sub>z</sub>b<sub>z</sub> hue/chroma
 
