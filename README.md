@@ -19,6 +19,7 @@
   * [SVG, HTML, and CSS](#svg-html-and-css)
   * [Non-screen use](#non-screen-use)
 * [Development and future direction](#development-and-future-direction)
+  * [A colour primer](#a-colour-primer)
   * [Colour appearance modelling](#colour-appearance-modelling)
   * [Colour naming](#colour-naming)
   * [Build process](#build-process)
